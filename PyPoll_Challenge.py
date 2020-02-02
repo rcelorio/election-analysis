@@ -93,6 +93,7 @@ with open(file_to_save, "w") as txt_file:
             county_largest_vote_count = votes
             county_largest_vote_percent = county_percent
             county_largest_vote = county
+    #print the county summary
     largest_county_summary = (
         f"\n-------------------------\n"
         f"Largest County Turnout: {county_largest_vote}\n"
